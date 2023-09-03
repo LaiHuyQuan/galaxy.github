@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kho phim - Galaxy Play</title>
+<!-- include: fontawesome -->
+    <script src="https://kit.fontawesome.com/2878e6014d.js" crossorigin="anonymous"></script>
+<!-- include: bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+<!-- include: slick-slider -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- include: css-file  -->
+    <link rel="stylesheet" href="./assets/css/khophim.css">
+    </head>
+
+<body>
+<div id="wrapper">
+    <div id="heading">
+        <!-- begin logo -->
+        <div class="logo">
+            <img src="./assets/img/logo/logoglx.svg" alt="">
+        </div>
+        
+        <div id="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="http://localhost/GalaxyPlay/trangchu.html"> Trang chủ</a></li>
+                <li class="nav-item"><a href="http://localhost/GalaxyPlay/khophim.html"> Kho Phim</a></li>
+                <li class="nav-item"><a href=""> Phim Điện Ảnh</a></li>
+                <li class="nav-item"><a href=""> Phim Bộ</a></li>
+                <li class="nav-item"><a href=""> Phim Thuê</a></li>
+                <li class="nav-item"><a href=""> Khuyến Mãi</a></li>
+                <li class="nav-item"><a href=""> Hỗ Trợ</a></li>
+            </ul>
+        </div>
+        
+        <div class="sign-in">
+            <a class="sign-in-button">
+                <i class="fa-solid fa-user"></i>
+                Đăng nhập</a>
+            </div>
+        </div>
+        <!-- end heading -->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="./assets/img/khophim/slide1.webp" class="d-block w-100" alt="...">
+                    <div class="dis">
+                        <img src="./assets/img/khophim/slide-dis1.webp" alt="" class="slide-dis">
+                        <div class="slide-btn">
+                            <button class="rent-btn">
+                                <i class="fa-solid fa-circle-play fa-xl" style="color: #000000;"></i>
+                                <a href="">Thuê phim 50.000đ</a>
+                            </button>
+                            <button class="trailer-btn">
+                                <i class="fa-solid fa-film fa-xl" style="color: #fff;"></i>
+                                <a href="">Xem trailer</a>
+                            </button>
+                    </div>
+                    <div class="script">
+                        <span>Dựa trên giai thoại về hai đệ nhất mĩ nhân Sài thành Ba Trà & Tư Nhị, Minh Hằng & Ngọc
+                            Trinh mang về doanh thu hơn 120 tỉ đồng, á quân phòng vé ba tuần liên tiếp trên đường đua phim tết 2023.</span>
+                            <a href="">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./assets/img/khophim/slide2.webp" class="d-block w-100" alt="...">
+                    <div class="dis">
+                        <img src="./assets/img/khophim/slide-dis2.webp" alt="" class="slide-dis">
+                        <div class="slide-btn">
+                            <button class="rent-btn">
+                                <i class="fa-solid fa-circle-play fa-xl" style="color: #000000;"></i>
+                                <a href="">Thuê phim 50.000đ</a>
+                            </button>
+                            <button class="trailer-btn">
+                                <i class="fa-solid fa-film fa-xl" style="color: #fff;"></i>
+                                <a href="">Xem trailer</a>
+                            </button>
+                        </div>
+                        <div class="script">
+                            <span>Dựa trên giai thoại về hai đệ nhất mĩ nhân Sài thành Ba Trà & Tư Nhị, Minh Hằng & Ngọc
+                                Trinh mang về doanh thu hơn 120 tỉ đồng, á quân phòng vé ba tuần liên tiếp trên đường đua phim tết 2023.</span>
+                                <a href="">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./assets/img/khophim/slide3.webp" class="d-block w-100" alt="...">
+                <div class="dis">
+                    <img src="./assets/img/khophim/slide-dis3.webp" alt="" class="slide-dis">
+                    <div class="slide-btn">
+                        <button class="rent-btn">
+                            <i class="fa-solid fa-circle-play fa-xl" style="color: #000000;"></i>
+                            <a href="">Thuê phim 50.000đ</a>
+                        </button>
+                        <button class="trailer-btn">
+                            <i class="fa-solid fa-film fa-xl" style="color: #fff;"></i>
+                            <a href="">Xem trailer</a>
+                        </button>
+                    </div>
+                    <div class="script">
+                        <span>Dựa trên giai thoại về hai đệ nhất mĩ nhân Sài thành Ba Trà & Tư Nhị, Minh Hằng & Ngọc
+                            Trinh mang về doanh thu hơn 120 tỉ đồng, á quân phòng vé ba tuần liên tiếp trên đường đua phim tết 2023.</span>
+                            <a href="">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./assets/img/khophim/slide4.webp" class="d-block w-100" alt="...">
+                    <div class="dis">
+                        <img src="./assets/img/khophim/slide-dis4.webp" alt="" class="slide-dis">
+                        <div class="slide-btn">
+                            <button class="rent-btn">
+                                <i class="fa-solid fa-circle-play fa-xl" style="color: #000000;"></i>
+                                <a href="">Thuê phim 50.000đ</a>
+                            </button>
+                            <button class="trailer-btn">
+                                <i class="fa-solid fa-film fa-xl" style="color: #fff;"></i>
+                                <a href="">Xem trailer</a>
+                            </button>
+                        </div>
+                        <div class="script">
+                            <span>Dựa trên giai thoại về hai đệ nhất mĩ nhân Sài thành Ba Trà & Tư Nhị, Minh Hằng & Ngọc
+                                Trinh mang về doanh thu hơn 120 tỉ đồng, á quân phòng vé ba tuần liên tiếp trên đường đua phim tết 2023.</span>
+                                <a href="">Xem chi tiết</a>
+                            </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/img/khophim/slide5.webp" class="d-block w-100" alt="...">
+                <div class="dis">
+                    <img src="./assets/img/khophim/slide-dis5.webp" alt="" class="slide-dis">
+                    <div class="slide-btn">
+                        <button class="rent-btn">
+                            <i class="fa-solid fa-circle-play fa-xl" style="color: #000000;"></i>
+                            <a href="">Thuê phim 50.000đ</a>
+                        </button>
+                        <button class="trailer-btn">
+                            <i class="fa-solid fa-film fa-xl" style="color: #fff;"></i>
+                            <a href="">Xem trailer</a>
+                        </button>
+                    </div>
+                    <div class="script">
+                        <span>Dựa trên giai thoại về hai đệ nhất mĩ nhân Sài thành Ba Trà & Tư Nhị, Minh Hằng & Ngọc
+                            Trinh mang về doanh thu hơn 120 tỉ đồng, á quân phòng vé ba tuần liên tiếp trên đường đua phim tết 2023.</span>
+                            <a href="">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+</div>
+</div>
+<!-- end slider -->
+<div id="content">
+<!-- Phim mới thịnh hành -->
+    <div class="top-cnt">
+        <span>Phim Mới Thịnh Hành Trên Galaxy Play</span>
+        <i class="fa-solid fa-angle-right fa-xl" style="color: #ffffff;"></i>
+    </div>
+    <div class="autoplay">
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/1.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/2.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/3.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/4.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/5.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/6.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/7.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/8.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/9.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/10.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/11.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/12.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/13.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/14.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/15.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/16.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/17.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/18.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top/19.webp" alt=""></div>
+        <div class="slide-img all"><img src="./assets/img/khophim/content/top/20.webp" alt=""></div> 
+    </div>
+<!-- chỉ có trên gp -->
+    <div class="top-cnt">
+        <span>Chỉ Có Trên Galaxy Play</span>
+        <i class="fa-solid fa-angle-right fa-xl" style="color: #ffffff;"></i>
+    </div>
+    <div class="autoplay">
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/1.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/2.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/3.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/4.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/5.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/6.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/7.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/8.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/9.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/10.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/11.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/12.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/13.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/14.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/15.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/16.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/17.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/18.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/19.webp" alt="" ></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/only/20.webp" alt="" ></div>
+    </div>
+<!-- top 5 phim -->
+    <div class="top-cnt">
+        <span>Top 5 Phim hôm nay</span>
+        <i class="fa-solid fa-angle-right fa-xl" style="color: #ffffff;"></i>
+    </div>
+    <div class="autoplay">
+        <div class="slide-img"><img src="./assets/img/khophim/content/top5/1.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top5/2.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top5/3.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top5/4.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/top5/5.webp" alt=""></div>
+    </div>
+<!-- banner -->
+    <div class="banner">
+        <img src="./assets/img/khophim/slide6.webp" alt="">
+    </div>
+<!-- Kiều Minh Tuấn -->
+    <div class="top-cnt">
+        <span>"Kẻ Ẩn Danh" Kiều Minh Tuấn</span>
+        <i class="fa-solid fa-angle-right fa-xl" style="color: #ffffff;"></i>
+    </div>
+    <div class="autoplay">
+        <div class="slide-img"><img src="./assets/img/khophim/content/KMT/1.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/KMT/2.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/KMT/3.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/KMT/4.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/KMT/5.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/KMT/6.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/KMT/7.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/KMT/8.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/KMT/9.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/KMT/10.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/KMT/11.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/KMT/12.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/KMT/13.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/KMT/14.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/KMT/15.webp" alt=""></div>
+        <div class="slide-img all"><img src="./assets/img/khophim/content/KMT/16.webp" alt=""></div>
+    </div>
+<!-- Thất tịch không mưa -->
+    <div class="top-cnt">
+        <span>Thất Tịch Không Mưa</span>
+        <i class="fa-solid fa-angle-right fa-xl" style="color: #ffffff;"></i>
+    </div>
+    <div class="autoplay">
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/1.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/2.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/3.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/4.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/5.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/6.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/7.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/8.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/9.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/10.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/11.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/12.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/13.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/14.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/15.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/16.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/17.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/18.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/thattich/19.webp" alt=""></div>
+        <div class="slide-img all"><img src="./assets/img/khophim/content/thattich/20.webp" alt=""></div>
+    </div>
+<!-- ba me ơi, xem gì -->
+    <div class="top-cnt">
+        <span>Ba Mẹ Ơi! Xem Gì</span>
+        <i class="fa-solid fa-angle-right fa-xl" style="color: #ffffff;"></i>
+    </div>
+    <div class="autoplay">
+        <div class="slide-img"><img src="./assets/img/khophim/content/bame/1.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/bame/2.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/bame/3.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/bame/4.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/bame/5.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/bame/6.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/bame/7.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/bame/8.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/bame/9.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/bame/10.webp" alt=""></div>
+    </div>
+<!-- phim chiếu rạp -->
+    <div class="top-cnt">
+        <span>Phim Việt Chiếu Rạp Hay Nhất Trên Galaxy Play</span>
+        <i class="fa-solid fa-angle-right fa-xl" style="color: #ffffff;"></i>
+    </div>
+    <div class="autoplay">
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimchieurap/1.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimchieurap/2.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimchieurap/3.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimchieurap/4.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimchieurap/5.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimchieurap/6.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimchieurap/7.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimchieurap/8.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimchieurap/9.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimchieurap/10.webp" alt=""></div>
+    </div>
+<!-- banner 2 -->
+    <div class="banner">
+        <img src="./assets/img/khophim/slide7.webp" alt="">
+    </div>    
+<!-- phim thuê đặc sắc -->
+    <div class="top-cnt">
+        <span>Phim Thuê Đặc Sắc</span>
+        <i class="fa-solid fa-angle-right fa-xl" style="color: #ffffff;"></i>
+    </div>
+    <div class="autoplay">
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimthue/1.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimthue/2.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimthue/3.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimthue/4.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimthue/5.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimthue/6.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimthue/7.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimthue/8.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimthue/9.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimthue/10.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimthue/11.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimthue/12.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimthue/13.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimthue/14.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/phimthue/15.webp" alt=""></div>  
+    </div>
+<!-- kinh dị Hollywood -->
+    <div class="top-cnt">
+        <span>Kinh Dị Hollywood</span>
+        <i class="fa-solid fa-angle-right fa-xl" style="color: #ffffff;"></i>
+    </div>
+    <div class="autoplay">
+        <div class="slide-img"><img src="./assets/img/khophim/content/kinhdi/1.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/kinhdi/2.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/kinhdi/3.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/kinhdi/4.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/kinhdi/5.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/kinhdi/6.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/kinhdi/7.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/kinhdi/8.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/kinhdi/9.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/kinhdi/10.webp" alt=""></div>
+    </div>
+<!-- hài lãng mạn -->
+    <div class="top-cnt">
+        <span>Hài, Lãng Mạn Hollywood</span>
+        <i class="fa-solid fa-angle-right fa-xl" style="color: #ffffff;"></i>
+    </div>
+    <div class="autoplay">
+        <div class="slide-img"><img src="./assets/img/khophim/content/hai-langman/1.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/hai-langman/2.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/hai-langman/3.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/hai-langman/4.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/hai-langman/5.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/hai-langman/6.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/hai-langman/7.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/hai-langman/8.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/hai-langman/9.webp" alt=""></div>
+        <div class="slide-img"><img src="./assets/img/khophim/content/hai-langman/10.webp" alt=""></div>   
+    </div>
+</div>
+<!-- end content -->
+
+<div id="footer">
+        <img src="./assets/img/logo/logoglx.svg" alt="" class="logo">
+        <div class="block">
+            <div class="block1">
+                <span>Galaxy Play là dịch vụ được cung cấp bởi Công ty Cổ Phần Galaxy Play, thành viên của Công ty Cổ Phần Giải Trí và Giáo Dục Galaxy (GEE.,JSC)</span>
+                <span>Địa chỉ: 59 Xa Lộ Hà Nội, Phường Thảo Điền, Thành Phố Thủ Đức, Thành Phố Hồ Chí Minh, Việt Nam.</span>
+                <span>Mã số doanh nghiệp: 0106539659.</span>
+                <span>Ngày cấp mã số doanh nghiệp: 15/5/2014.</span>
+                <span>Nơi cấp: Sở kế hoạch và đầu tư thành phố Hà Nội.</span>
+            </div>
+            <div class="block2">
+                <h4>GIỚI THIỆU</h4>
+                <a href="">Quy chế sử dụng Dịch vụ</a>
+                <a href="">Chính sách bảo mật</a>
+                <li>Khuyến mãi</li>
+            </div>
+            <div class="block3">
+                <h4>HỖ TRỢ</h4>
+                <a href="">1800 9090 (24/7)</a>
+                <a href="">play@galaxy.com.vn</a>
+                <a href="">https://galaxyplay.vn/help</a>
+            </div>
+            <div class="block4">
+                <h4>TẢI ỨNG DỤNG</h4>
+                <div class="line1">
+                    <a href=""><img src="./assets/img/footer/f1.webp" alt=""></a>
+                    <a href=""><img src="./assets/img/footer/f2.webp" alt=""></a>
+                </div>
+                <h4>KẾT NỐI VỚI CHÚNG TÔI</h4>
+                <div class="line2">
+                    <a href=""><img src="./assets/img/footer/f3.svg" alt=""></a>
+                    <a href=""><img src="./assets/img/footer/f4.svg" alt=""></a>
+                    <a href=""><img src="./assets/img/footer/f5.svg" alt=""></a>
+                    <a href=""><img src="./assets/img/footer/f6.webp" alt=""></a>
+                    <a href=""><img src="./assets/img/footer/f7.webp" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <img class="noti" src="./assets/img/footer/f8.webp" alt="">
+
+    </div>
+<!-- end footer -->
+</div>
+<!-- end wrapper -->
+
+<!-- include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<!-- include: slick-slider -->
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- include: js-file -->
+    <script src="./khophim.js"></script>
+</body>
+
+</html>

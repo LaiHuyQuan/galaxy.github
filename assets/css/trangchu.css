@@ -899,7 +899,7 @@ a {
 }
 
 .justify-content2 .justi-right-block2 img {
-    margin-left: 20px;
+    display: none;
 }
 
 .contact {

@@ -114,7 +114,8 @@ a {
 
 #heading {
     position: fixed;
-    background: #000;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
     padding: 8px 50px;
     width: 100vw;
     height: 72px;

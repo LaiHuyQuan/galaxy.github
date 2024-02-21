@@ -5,3 +5,5 @@
     autoplaySpeed: 6000,
     variableWidth: true
   });
+
+  

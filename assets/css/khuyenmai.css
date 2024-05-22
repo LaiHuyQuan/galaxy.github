@@ -1,0 +1,36 @@
+#content {
+    min-height: 60vh;
+    background-color: #fff;
+}
+
+.hd_text {
+    color: #333;
+    font-size: 20px;
+    margin: 5vh 0 0 5vw;
+}
+
+.hd_text::after {
+    border-bottom: aqua;
+    height: 5px;
+    width: 20px;
+}
+
+.content_blc {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ct_blc {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.content_blc img {
+    width: 100%;
+}
+
+.content_blc img:hover {
+    transition: all ease-in-out 0.3;
+}

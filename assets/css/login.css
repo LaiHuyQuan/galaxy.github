@@ -90,3 +90,18 @@
 a {
   color: #007afc;
 }
+
+.hide {
+  display: none;
+}
+
+.phone-logbox {
+  position: fixed;
+  top: 25%;
+  left: 35%;
+  width: 40%;
+  height: 50%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}

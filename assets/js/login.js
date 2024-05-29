@@ -1,5 +1,6 @@
 $(document).ready(function () {
   $(".phone-log").click(function () {
-    alert("112");
+    $(".loginbox").addClass("hide");
+    $(".phone-logbox").removeClass("hide");
   });
 });
